@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananiya pythologiest clinic</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="main.html"><img src="/image/pathlogy.34.jpg" class="logo"></a>
+            <div class="nav-links" id="navlinks">
+                <img src="./image/close.png" class="close" onclick="closeMenu()">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="./form.html">FORM</a></li>
+                </ul>
+            </div>
+            <img src="./image/menu.png" class="menu" onclick="showMenu()">
+        </nav>
+        <div class="text-box">
+            <h1>Ananiya Pythologist Clinic</h1>
+            <p>make sure nothing to worry to take in life</p>
+            <a href="" class="here-btn">visit more</a>
+        </div>
+
+
+    </section>
+
+    <!-----services---->
+
+    <section class="campus">
+       <hr> <h1>-- Faclities --</h1><hr>
+        <div class="col">
+            <img src="./image/discount.jpg" class="img-col">
+           <p> Online Form भरेमा 10% Discount पर Report</p>
+        
+        </div>
+        
+        <div class="col">
+            <img src="./image/deliver.jpg" class="img-col">
+            <p>Report घर सम्म पुगाउँने Charge RS100</p>
+        
+        </div>
+        
+        <div class="col">
+            <img src="./image/ca.jpg" class="img-col">
+            <p>ले आफ्नो रोग सबम्धि Doctor सँग Free मा कुरा गर्न सक्छ</p>
+        
+        </div>
+
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+
+
+        }
+        function closeMenu(){
+            navlinks.style.right = "-200px";
+
+        }
+    </script>
+    
+</body>
+</html>
+
+
+

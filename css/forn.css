@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(50,1,80,0.7),rgba(50,1,80,0.7)),url('../image/pathlogy.34.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+h2{
+    position: absolute;
+    color: white;
+    top: -13%;
+    left: 35px;
+    letter-spacing: 1px;
+}
+h3{
+    margin-top: 10px;
+    color: white;
+    letter-spacing: 1px;
+}
+div{
+    display: inline;
+    border: 1px solid red;
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-image: linear-gradient(rgba(72, 35, 95, 0.808),rgba(30, 6, 44, 0.7));
+    box-shadow: 10px 30px 40px 9px;
+    transition: 1s;
+}
+form{
+    display: flexbox;
+}
+input{
+    text-align: center;
+    padding: 3px;
+    margin: 12px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(60, 43, 70, 0.577),rgba(90, 66, 105, 0.527));
+    
+}
+input[type="text"],[type="submit"]{
+    color: white;
+    font-weight: normal;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.submit{
+    height: 30px;
+    width: 100px;
+}
+.submit:hover{
+    background-color:white;
+    color: black;
+    box-shadow: 6px 4px 12px 1px black;
+}
+h2:hover{
+    border: 1px solid white;
+    padding: 2px;
+    box-shadow: 14px 8px 12px 1px black;
+    transition: 0.5s;
+
+}
